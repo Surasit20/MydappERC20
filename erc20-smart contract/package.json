@@ -1,0 +1,24 @@
+{
+  "name": "erc20simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0",
+    "dotenv": "^16.0.0",
+    "truffle-privatekey-provider": "^1.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.2",
+    "truffle-plugin-verify": "^0.5.25"
+  }
+}
